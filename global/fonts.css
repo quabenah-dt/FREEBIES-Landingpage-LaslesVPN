@@ -22,3 +22,16 @@
     font-weight: 700;
     src: url('/fonts/rubik-v28-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
+
+
+  :root {
+
+    --fs-xxsm: 0.875rem; /* 14px */
+    --fs-xsm: 1rem; /* 16px */
+    --fs-sm: 1.125rem; /* 18px */
+    --fs-md: 1.25rem;  /* 20px */
+    --fs-lg: 1.563rem; /* 25px */
+    --fs-xl: 2.188rem;  /* 35px */
+    --fs-xxl: 3.125rem; /* 50px */
+
+  }
