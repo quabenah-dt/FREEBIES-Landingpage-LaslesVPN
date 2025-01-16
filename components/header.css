@@ -1,0 +1,45 @@
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+
+    & li a {
+        text-decoration: none;
+        color: var(--color-medium);
+        font-size: var( --fs-xsm);
+    }
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    list-style-type: none;
+
+    & li a {
+        text-decoration: none;
+        color: var(--color-bold);
+        font-weight: 500;
+        font-size: var(--fs-xsm);
+    }
+}
