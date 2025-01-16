@@ -74,6 +74,7 @@ ul {
 main {
     display: flex;
     /* justify-content: space-between; */
+    /* gap: 50px; */
 }
 
 .main-text h2 {
@@ -96,4 +97,9 @@ main {
     font-size: var(--fs-xsm);
     line-height: 30px;
     margin-bottom: 50px;
+}
+
+
+.main-img {
+    margin-top: 70px;
 }

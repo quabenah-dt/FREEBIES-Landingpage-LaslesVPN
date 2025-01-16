@@ -1,0 +1,12 @@
+.main-text-btn {
+    width: 250px;
+    height: 60px;
+    background-color: var(--color-button);
+    border: none;
+    border-radius: 10px;
+    color: var(--color-white);
+    font-weight: 700;
+    font-size: var(--fs-xsm);
+    cursor: pointer;
+    box-shadow: 5px 10px 20px -5px rgba(245, 56, 56, 0.35);
+}
