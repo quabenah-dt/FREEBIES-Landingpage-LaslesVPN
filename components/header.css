@@ -16,6 +16,7 @@ ul {
     gap: 40px;
     list-style: none;
 
+
     & li a {
         text-decoration: none;
         color: var(--color-medium);
@@ -35,6 +36,7 @@ ul {
     align-items: center;
     gap: 13px;
     list-style-type: none;
+    /* margin-left: 50px; */
 
     & li a {
         text-decoration: none;
@@ -42,4 +44,28 @@ ul {
         font-weight: 500;
         font-size: var(--fs-xsm);
     }
+}
+
+
+.red {
+    color: var(--color-signup);
+}
+
+.signup  {
+    width: 150px;
+    height: 50px;
+    border: 1px solid var(--color-signup);
+    border-radius: 50px ;
+    text-align: center;
+    padding: 13px 13px ;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.signup:hover {
+    background-color: var(--color-signup);
+}
+
+.signup:hover span {
+    color: var(--color-white);
 }
