@@ -10,7 +10,7 @@ nav {
     padding-top: 50px;
 }
 
-ul {
+.nav-links {
     display: flex;
     align-items: center;
     gap: 40px;
@@ -133,4 +133,50 @@ main {
     display: flex;
     align-items: center;
     gap: 37px;
+}
+
+
+.Features {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.features-img img {
+    width: 100%;
+    height: auto
+}
+
+.features-text h2 {
+    font-size: var(--fs-xl);
+    color: var(--color-bold);
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.features-text p {
+    color: var(--color-medium);
+    font-size: var(--fs-xsm);
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.features-list li {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.features-list p {
+    margin: 0;
+    color: var(--color-medium);
+    font-size: var(--fs-xxsm);
+    line-height: 30px;
+}
+
+.features-list {
+    margin: 0;
+    padding: 0;
 }
