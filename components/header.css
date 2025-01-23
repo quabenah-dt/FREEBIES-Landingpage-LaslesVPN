@@ -34,7 +34,7 @@ ul {
 .login {
     display: flex;
     align-items: center;
-    gap: 13px;
+    gap: 30px;
     list-style-type: none;
     /* margin-left: 50px; */
 
@@ -73,7 +73,7 @@ ul {
 
 main {
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     /* gap: 50px; */
 }
 
@@ -102,4 +102,28 @@ main {
 
 .main-img {
     margin-top: 70px;
+    margin-left: 50px;
+}
+
+
+.main-info {
+    width: 1140px;
+    height: 200px;
+    /* background-color: var(--color-bold); */
+    margin-top: 103px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 89px;
+    padding-right: 89px;
+    padding-bottom: 37px;
+    padding-top: 37px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 20px -5px rgba(12, 12, 12, 0.35)
+}
+
+.vertical-line {
+    width: 1px;
+    height: 125px;
+    background-color: var(--color-line);
+
 }
