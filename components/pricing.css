@@ -1,0 +1,38 @@
+.pricing {
+    background-color: var(--color-line);
+}
+
+.pricing-info{
+    padding-top: 80px;
+    text-align: center;
+}
+
+.pricing-info h2 {
+    font-size: var(fs-xl);
+    font-weight: 500;
+    line-height: 50px;
+    color: var(--color-bold);
+}
+
+.pricing-info p {
+    font-size: var(--fs-xms);
+    color: var(--color-medium);
+    margin-top: 20px;
+}
+
+.plans {
+    display: flex;
+    justify-content: center;
+    gap: 44px;
+}
+
+
+.plan-container {
+    width: 330px;
+    height: 760px;
+    background-color: var(--color-white);
+    border-radius: 10px;
+    border: 2px #DDDDDD solid;
+    margin-top: 55px;
+    margin-bottom: 50px;
+}
