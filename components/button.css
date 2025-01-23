@@ -10,3 +10,32 @@
     cursor: pointer;
     box-shadow: 5px 10px 20px -5px rgba(245, 56, 56, 0.35);
 }
+
+
+.features-btn {
+    width: 178px;
+    height: 45px;
+    border: 2px solid var(--color-button);
+    background-color: var(--color-white);
+    border-radius: 50px;
+    color: var(--color-button);
+    font-weight: 700;
+    font-size: var(--fs-xsm);
+    cursor: pointer;
+    margin-left: 76px;
+    margin-right: 76px;
+    /* margin-bottom: 30px; */
+}
+
+
+
+.standard {
+    margin-top: 160px;
+}
+
+.premium {
+    margin-top: 130px;
+    background-color: var(--color-button);
+    border: none;
+    color: var(--color-white);
+}
