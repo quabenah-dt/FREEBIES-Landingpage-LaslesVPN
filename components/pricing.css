@@ -1,5 +1,6 @@
 .pricing {
-    background-color: var(--color-line);
+    background-color: #f7fcf7;
+    height: 1200px
 }
 
 .pricing-info{
@@ -34,7 +35,7 @@
     border-radius: 10px;
     border: 2px #DDDDDD solid;
     margin-top: 55px;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 
 .plan-container .main-img {

@@ -1,0 +1,28 @@
+.brands {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Ensures no content spills out */
+    position: relative; /* Required for the absolute positioning of children */
+    width: 100%; /* Full width of the container */
+    height: 208px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.brand-scroll {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    position: absolute;
+    animation: scroll-animation 10s linear infinite;
+}
+
+@keyframes scroll-animation {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
