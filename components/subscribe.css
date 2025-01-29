@@ -1,4 +1,5 @@
 .subscribe {
+    position: relative;
     width: 1140px;
     height: 200px;
     display: flex;
@@ -8,7 +9,10 @@
     margin-right: 150px;
     border-radius: 10px;
     box-shadow: 5px 10px 20px -5px rgba(12, 12, 12, 0.35);
-    margin-bottom: 95px;
+    /* margin-bottom: 95px; */
+    top: 80px;
+    background-color: var(--color-white);
+    /* z-index: 1; */
 }
 
 .subscribe-content{
